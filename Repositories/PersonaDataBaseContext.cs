@@ -13,6 +13,11 @@ namespace ApiGestionPersonas.Repositories
 
         public DbSet<PersonaEntity> persona { get; set; }
 
+        public async Task<List<PersonaEntity>> GetAll()
+        {
+            return await persona.ToListAsync();
+        }
+
         public async Task<PersonaEntity?> Get(long id)
         {
             return await persona.FirstOrDefaultAsync(x => x.Id == id);
@@ -36,11 +41,11 @@ namespace ApiGestionPersonas.Repositories
             return await Get(response.Entity.Id ?? throw new Exception("No se ha podido guardar"));
         }
 
-        public async Task<PersonaEntity> Delete(long id)
+        public async Task<PersonaEntity?> Delete(long id)
         {
             PersonaEntity? entity = await Get(id);
             if (entity == null)
-                throw new Exception("No se ha podido eliminar");
+                return null;
             persona.Remove(entity);
             await SaveChangesAsync();
             return entity;
