@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rWyq0AMCuXEu7rmaJlDBSIZJwGvtPn8pKswdXSEJyQ8=",
+  "Source": "ApiGestionPersonas",
+  "BasePath": "_content/ApiGestionPersonas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
