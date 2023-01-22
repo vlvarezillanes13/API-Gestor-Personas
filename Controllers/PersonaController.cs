@@ -1,12 +1,14 @@
 ﻿using ApiGestionPersonas.CasosDeUso;
 using ApiGestionPersonas.Dtos;
 using ApiGestionPersonas.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiGestionPersonas.Controllers
 {
 
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class PersonaController : Controller
     {

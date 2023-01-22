@@ -9,6 +9,7 @@ D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Google.Protobuf.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\K4os.Compression.LZ4.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
@@ -21,6 +22,12 @@ D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.Extensions.Log
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\MySql.Data.dll
@@ -37,6 +44,7 @@ D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Swashbuckle.AspNetCore.S
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\System.Security.Permissions.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\System.Windows.Extensions.dll
