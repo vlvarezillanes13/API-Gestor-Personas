@@ -30,7 +30,7 @@ namespace ApiGestionPersonas.Controllers
         {
             UsuarioEntity? user = await _autenticacionDataBaseContext.Get(usuario);
             if (user == null)
-                return new UnauthorizedObjectResult("Crendeciales invalidas");
+                return new UnauthorizedObjectResult("Credenciales invalidas");
             return new OkObjectResult(user);
         }
         
