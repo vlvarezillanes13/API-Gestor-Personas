@@ -31,4 +31,12 @@ namespace ApiGestionPersonas.Repositories
 
     }
 
+    public class UsuarioEntityToken
+    {
+        public int Id { get; set; }
+        public string Username { get; set; }
+        public string Perfil { get; set; }
+
+    }
+
 }

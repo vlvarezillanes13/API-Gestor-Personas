@@ -36,7 +36,7 @@ namespace ApiGestionPersonas.Controllers
         
 
         [HttpPost("ObtenerToken")]
-        public string GenerarToken([FromBody] UsuarioEntity user)
+        public string GenerarToken([FromBody] UsuarioEntityToken user)
         {
             var KeyBytes = Encoding.ASCII.GetBytes(SecretKey);
             var claims = new ClaimsIdentity();
