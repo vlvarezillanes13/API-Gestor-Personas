@@ -40,6 +40,17 @@ namespace ApiGestionPersonas.Controllers
             return new OkObjectResult(result.ToDto());
         }
 
+        [HttpGet("ObtenerPersona/{rut}/{dv}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(PersonaDto))]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> GetPersonaByRutDv(string rut, string dv)
+        {
+            PersonaEntity? result = await _personaDataBaseContext.GetbyRutDv(rut,dv);
+            if (result == null)
+                return new NotFoundResult();
+            return new OkObjectResult(result.ToDto());
+        }
+
         [HttpPost("AgregarPersona")]
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(PersonaDto))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(PersonaDto))]

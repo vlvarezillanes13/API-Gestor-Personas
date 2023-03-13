@@ -23,6 +23,11 @@ namespace ApiGestionPersonas.Repositories
             return await persona.FirstOrDefaultAsync(x => x.Id == id);
         }
 
+        public async Task<PersonaEntity?> GetbyRutDv(string rut, string dv)
+        {
+            return await persona.FirstOrDefaultAsync(x => x.Rut == rut && x.Dv == dv);
+        }
+
         public async Task<PersonaEntity?> Add(CreatePersonaDto personDto)
         {
             PersonaEntity entity = new PersonaEntity()
