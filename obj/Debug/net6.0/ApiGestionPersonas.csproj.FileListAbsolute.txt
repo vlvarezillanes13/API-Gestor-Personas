@@ -9,6 +9,8 @@ D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Google.Protobuf.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\K4os.Compression.LZ4.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\System.Web.Http.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -38,6 +40,8 @@ D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\k5sprt64.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\krb5_64.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\krbcc64.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Examen de Titulo\ApiGestionPersonas\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
