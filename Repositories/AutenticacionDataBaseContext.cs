@@ -24,6 +24,7 @@ namespace ApiGestionPersonas.Repositories
             usuarioEntityLogin.Username = user.Username;
             usuarioEntityLogin.Password = user.Password;
             usuarioEntityLogin.Perfil = user.Perfil;
+            usuarioEntityLogin.IdPersona = user.IdPersona;
             usuarioEntityLogin.NombrePerfil = perfil.Nombre;
 
             return usuarioEntityLogin;
@@ -44,6 +45,7 @@ namespace ApiGestionPersonas.Repositories
             public string Username { get; set; }
             public string Password { get; set; }
             public int Perfil { get; set; }
+            public int IdPersona { get; set; }
 
         }
 
